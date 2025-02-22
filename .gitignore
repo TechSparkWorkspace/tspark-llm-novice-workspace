@@ -1,0 +1,35 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Conda environment files
+env/
+*.conda
+*.lock
+
+# Virtual environment folders
+venv/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook metadata
+*.ipynb~  
+
+# Ignore dataset and large files
+*.csv
+*.tsv
+*.h5
+*.pkl
+*.joblib
+
+# Ignore logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
